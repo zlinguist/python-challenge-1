@@ -21,8 +21,6 @@ def main():
             candidate_percentage = {}
             for candidate in candidate_totals.keys():
                 candidate_percentage[candidate] = float(candidate_totals[candidate]/total_votes)*100
-            #for candidate in candidate_percentage:
-            #print(f'{candidate} {candidate_percentage[candidate]:.3f}')
         winner = ""
         winner_percent = 0.0
         for candidate in candidate_percentage:
@@ -47,14 +45,7 @@ def main():
     f.close()
 
 
-
-
 if __name__ == "__main__":
     main()
-
-
-# In[ ]:
-
-
 
 

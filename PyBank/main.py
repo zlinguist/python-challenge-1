@@ -40,13 +40,6 @@ def main():
         f.write(f'Greatest Increase in Profits: {greatest_increase[0]} (${greatest_increase[1]})\n')
         f.write(f'Greatest Decrease in Profits: {greatest_decrease[0]} (${greatest_decrease[1]})\n')
         f.close()
-#         print("Financial Analysis")
-#         print("--------------------------------")
-#         print(f'Total Months: {number_months}')
-#         print(f'Total: ${total_amount}')
-#         print("Average Change: {0:.2f}".format(round(average_change, 2)))
-#         print(f'Greatest Increase in Profits: {greatest_increase[0]} (${greatest_increase[1]})')
-#         print(f'Greatest Decrease in Profits: {greatest_decrease[0]} (${greatest_decrease[1]})')
     f = open("financial_analysis.txt", mode="r")
     for line in f:
         print(line, end='')
